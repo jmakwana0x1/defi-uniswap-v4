@@ -15,10 +15,5 @@
 - [Exercise - execute UniversalRouter commands](./foundry/exercises/universal_router.md)
 - [V3 to V4 Multi hop swap](./notes/uni_router_v3_v4_swap.png)
 - [Exercise - Multi hop swap on V3 and then V4](./foundry/exercises/swap_v3_v4.md)
-- [ ] [Exercise - Quoter](./foundry/exercises/quoter.md)
-  - [ ] TODO: explanation
-  - [ ] TODO: example or exercise
-  - Introduction to quoting and why it matters
-  - Using the Mixed Quoter contract
-  - Simulating outputs: “If I swap X tokens in this pool, what do I get back?”
+- [Exercise - Quoter](./foundry/exercises/quoter.md)
 - [Application - liquidation](./foundry/exercises/liquidation.md)
