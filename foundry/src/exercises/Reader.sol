@@ -29,6 +29,8 @@ contract Reader {
         view
         returns (int256 delta)
     {
+        bytes32 slot =  computeSlot(target,currency);
         // Write your code here
+        return int256(uint256(poolManager.exttload(slot)));
     }
 }
