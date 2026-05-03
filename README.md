@@ -110,7 +110,7 @@ Please refer to this for an in-depth explanation of the content:
   - [`execute`](https://github.com/Uniswap/universal-router/blob/3663f6db6e2fe121753cd2d899699c2dc75dca86/contracts/UniversalRouter.sol#L44-L62)
   - [`dispatch`](https://github.com/Uniswap/universal-router/blob/3663f6db6e2fe121753cd2d899699c2dc75dca86/contracts/base/Dispatcher.sol#L47-L286)
   - [`Commands`](https://github.com/Uniswap/universal-router/blob/main/contracts/libraries/Commands.sol)
-    - [Example - `Permit2` and non-reverting command](./foundry/test/UniversalRouterPermit2.sol)
+    - [Examples - `Permit2` and non-reverting command](./foundry/test/UniversalRouterPermit2.sol)
   - [Commands and inputs](https://docs.uniswap.org/contracts/universal-router/technical-reference)
   - [`V4SwapRouter`](https://github.com/Uniswap/universal-router/blob/main/contracts/modules/uniswap/v4/V4SwapRouter.sol)
   - [`IV4Router`](https://github.com/Uniswap/v4-periphery/blob/main/src/interfaces/IV4Router.sol)
