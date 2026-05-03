@@ -125,7 +125,7 @@ This hook is triggered after a swap and is responsible for removing liquidity fr
 1. Find the value of `salt` needed to deploy the hooks contract at a valid address.
 
 ```shell
-forge test --match-path test/FindHookAddr.sol -vvv
+forge test --match-path test/FindHookSalt.sol -vvv
 ```
 
 2. Export the salt printed to your terminal from executing the command in the previous step.
