@@ -42,11 +42,11 @@
         -> Call `TAKE_ALL`
   - [x] Exercise
 
-- quoting
+- [Quoter](https://github.com/Uniswap/mixed-quoter)
   - [ ] TODO: explanation
   - [ ] TODO: example or exercise
   - Introduction to quoting and why it matters
   - Using the Mixed Quoter contract
-    - https://github.com/Uniswap/mixed-quoter
   - Simulating outputs: “If I swap X tokens in this pool, what do I get back?”
+
 - [ ] TODO: application - liquidation bot?
