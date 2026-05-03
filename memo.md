@@ -15,7 +15,7 @@
 - [Exercise - execute UniversalRouter commands](./foundry/exercises/universal_router.md)
 - [V3 to V4 Multi hop swap](./notes/uni_router_v3_v4_swap.png)
 - [Exercise - Multi hop swap on V3 and then V4](./foundry/exercises/swap_v3_v4.md)
-- [Quoter](https://github.com/Uniswap/mixed-quoter)
+- [ ] [Exercise - Quoter](./foundry/exercises/quoter.md)
   - [ ] TODO: explanation
   - [ ] TODO: example or exercise
   - Introduction to quoting and why it matters
