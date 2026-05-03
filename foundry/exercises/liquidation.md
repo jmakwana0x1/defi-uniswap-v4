@@ -11,6 +11,12 @@ The starter code for this exercise is provided in [`foundry/src/exercises/Liquid
 
 Solution is in [`foundry/src/solutions/Liquidate.sol`](https://github.com/Cyfrin/defi-uniswap-v4/blob/main/foundry/src/solutions/Liquidate.sol)
 
+> **Note**  
+> This exercise uses a flash loan from **Aave V3** because it’s not possible to obtain a flash loan from **Uniswap V4** and then perform a swap on Uniswap V4 via the `UniversalRouter`.  
+> When you get a flash loan from Uniswap V4, the `PoolManager` contract becomes locked, which prevents the `UniversalRouter` from acquiring a lock.  
+> In practice, a more efficient approach would be to take the flash loan directly from Uniswap V4 (since its flash loan fee is **0**) and perform the swap directly through the `PoolManager` contract.  
+> However, in this exercise, the focus is on learning how to interact with the `UniversalRouter` contract.
+
 ## Task 1 - Initiate liquidation
 
 ```solidity

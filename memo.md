@@ -49,4 +49,4 @@
   - Using the Mixed Quoter contract
   - Simulating outputs: “If I swap X tokens in this pool, what do I get back?”
 
-- [ ] TODO: application - liquidation bot?
+- [ ] [Application - liquidation](./foundry/exercises/liquidation.md)
