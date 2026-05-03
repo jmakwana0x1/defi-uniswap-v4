@@ -41,6 +41,7 @@ contract Flash {
 
         (address caller, bytes memory data) =
             abi.decode(params, (address, bytes));
+        IERC20(token).transfer(caller, amount);
         IFlashReceiver(caller).flashCallback(token, amount, fee, data);
 
         IERC20(token).approve(msg.sender, amount + fee);

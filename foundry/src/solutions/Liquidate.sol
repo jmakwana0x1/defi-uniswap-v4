@@ -122,6 +122,7 @@ contract Liquidate is IFlashReceiver {
         if (currencyOut == address(0)) {
             weth.deposit{value: address(this).balance}();
         }
+
         uint256 bal = IERC20(tokenToRepay).balanceOf(address(this));
         require(bal >= amount + fee, "insufficient amount to repay flash loan");
         IERC20(tokenToRepay).transfer(address(flash), amount + fee);

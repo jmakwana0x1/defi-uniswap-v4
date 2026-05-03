@@ -5,7 +5,7 @@ import {IERC20} from "../interfaces/IERC20.sol";
 import {IPool} from "../interfaces/aave-v3/IPool.sol";
 import {AAVE_V3_POOL} from "../Constants.sol";
 
-contract Liquidate {
+contract Liquidator {
     IPool public constant pool = IPool(AAVE_V3_POOL);
 
     function getDebt(address token, address user)
@@ -32,5 +32,8 @@ contract Liquidate {
             debtToCover: debt,
             receiveAToken: false
         });
+
+        uint256 bal = IERC20(collateral).balanceOf(address(this));
+        IERC20(collateral).transfer(msg.sender, bal);
     }
 }
