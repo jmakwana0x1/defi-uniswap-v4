@@ -75,7 +75,7 @@ Please refer to this for an in-depth explanation of the content:
     - [Flags](https://github.com/Uniswap/v4-core/blob/59d3ecf53afa9264a16bba0e38f4c5d2231f80bc/src/libraries/Hooks.sol#L27-L47)
     - [`hasPermission`](https://github.com/Uniswap/v4-core/blob/59d3ecf53afa9264a16bba0e38f4c5d2231f80bc/src/libraries/Hooks.sol#L337-L339)
   - [`HookMiner`](https://github.com/Uniswap/v4-periphery/blob/main/src/utils/HookMiner.sol)
-    - [`FindHookSalt.sol`](https://github.com/Cyfrin/defi-uniswap-v4/blob/dev/foundry/test/FindHookSalt.test.sol)
+    - [`FindHookSalt.sol`](https://github.com/Cyfrin/defi-uniswap-v4/blob/main/foundry/test/FindHookSalt.test.sol)
 - [Access msg.sender inside a hooks contract](./notes/hooks_msg_sender.png)
 - [Exercise - counter hook](./foundry/exercises/counter.md)
 - [Application - limit order](./foundry/exercises/limit_order.md)
