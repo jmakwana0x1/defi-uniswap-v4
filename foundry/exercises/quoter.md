@@ -27,8 +27,12 @@ These environment variables are not needed for this exercise.
 
 ## Task 4 - Copy `MixedRouteQuoterV2Example.sol`
 
+Copy [`MixedRouteQuoterV2Example.sol`](https://github.com/Cyfrin/defi-uniswap-v4/blob/main/foundry/exercises/MixedRouteQuoterV2Example.sol) into [`test`](https://github.com/Uniswap/mixed-quoter/tree/main/test) folder.
+
 ## Test
 
+Execute the test command inside the `mixed-quoter` repository.
+
 ```shell
-forge test --fork-url $FORK_URL --match-path test/Posm.test.sol -vvv
+forge test --fork-url $FORK_URL --match-path test/MixedRouteQuoterV2Example.sol -vvv
 ```
